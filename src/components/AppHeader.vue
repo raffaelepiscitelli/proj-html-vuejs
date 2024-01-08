@@ -31,9 +31,9 @@
 
         <section class="jumbo">
 
-            <div class="jumbo-container">
+            <div class="jumbo-container flex">
 
-                <img src="../assets/imgs/home_finance_slider_bg.jpg" alt="">
+                <p>Right People. Right Investments.</p>
 
             </div>
 

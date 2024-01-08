@@ -44,6 +44,14 @@ ul {
     font-weight: bolder;
 }
 
-.jumbo-container img {
-    width: 100%;
+.jumbo-container {
+    background-image: url(../assets/imgs/home_finance_slider_bg.jpg);
+    height: 43rem;
+    background-size: 98rem;
+    justify-content: center;
+    background-position: 0 43rem;
+    align-items: center;
+    color: white;
+    font-size: 3.4rem;
+    font-weight: lighter;
 }
