@@ -9,19 +9,7 @@
 
                 <ul class="ul-header flex">
 
-                    <li>Home</li>
-
-                    <li>About</li>
-
-                    <li>Services</li>
-
-                    <li>Packages</li>
-
-                    <li>Insight</li>
-
-                    <li>Contact</li>
-
-                    <li>+</li>
+                    <HeaderMenu v-for="headerElement in headerMenu" :linkHeader="headerElement.link"/>
 
                 </ul>
 
@@ -63,8 +51,45 @@
 </template>
 
 <script>
+import HeaderMenu from './HeaderMenu.vue';
 export default {
-    
+    data() {
+        return {
+            headerMenu: [
+                {
+                    id: 1,
+                    link: "Home"
+                },
+                {
+                    id: 2,
+                    link: "About"
+                },
+                {
+                    id: 3,
+                    link: "Services"
+                },
+                {
+                    id: 4,
+                    link: "Packages"
+                },
+                {
+                    id: 5,
+                    link: "Insight"
+                },
+                {
+                    id: 6,
+                    link: "Contact"
+                },
+                {
+                    id: 7,
+                    link: "+"
+                }
+            ]
+        }
+    },
+    components: {
+        HeaderMenu
+    }
 }
 </script>
 

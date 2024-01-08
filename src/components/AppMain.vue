@@ -1,7 +1,11 @@
 <template>
-    <div>
+    <section class="cloud">
         
-    </div>
+        <div class="cloud-container">
+
+        </div>
+
+    </section>
 </template>
 <script>
 export default {
