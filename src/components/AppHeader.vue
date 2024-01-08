@@ -38,9 +38,30 @@
             </div>
 
         </section>
+
+        <section class="bottom-header">
+
+            <div class="bottom-header-container flex">
+
+                <img src="../assets/imgs/client-logo-7-200x87.png" alt="">
+
+                <img src="../assets/imgs/client-logo-8-200x87.png" alt="">
+
+                <img src="../assets/imgs/client-logo-9-200x87.png" alt="">
+
+                <img src="../assets/imgs/client-logo-5-200x87.png" alt="">
+
+                <img src="../assets/imgs/client-logo-6-200x87.png" alt="">
+
+                <img src="../assets/imgs/client-logo-7-200x87.png" alt="">
+
+            </div>
+
+        </section>
         
     </header>
 </template>
+
 <script>
 export default {
     

@@ -55,3 +55,14 @@ ul {
     font-size: 3.4rem;
     font-weight: lighter;
 }
+
+.bottom-header-container {
+    background-color: rgb(249, 249, 249);
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1.2rem 0;
+}
+
+.bottom-header-container img {
+    height: 5rem;
+}
