@@ -8,3 +8,42 @@
     box-sizing: border-box;
 }
 
+.flex {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.up-header {
+    background-color: white;
+}
+
+.up-header-container {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem 0;
+}
+
+.up-header-container img {
+    height: 2.4rem;
+    margin-left: 3rem;
+}
+
+.ul-header {
+    margin-right: 4.5rem;
+}
+
+.ul-header li {
+    margin-left: 3.5rem;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    color: rgb(156, 156, 156);
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.jumbo-container img {
+    width: 100%;
+}

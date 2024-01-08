@@ -1,7 +1,45 @@
 <template>
-    <div>
+    <header>
+
+        <section class="up-header">
+
+            <div class="up-header-container flex">
+
+                <img src="../assets/imgs/finance_logo_1x.png" alt="">
+
+                <ul class="ul-header flex">
+
+                    <li>Home</li>
+
+                    <li>About</li>
+
+                    <li>Services</li>
+
+                    <li>Packages</li>
+
+                    <li>Insight</li>
+
+                    <li>Contact</li>
+
+                    <li>+</li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section class="jumbo">
+
+            <div class="jumbo-container">
+
+                <img src="../assets/imgs/home_finance_slider_bg.jpg" alt="">
+
+            </div>
+
+        </section>
         
-    </div>
+    </header>
 </template>
 <script>
 export default {
