@@ -137,3 +137,84 @@ ul {
     width: 75%;
     margin-top: 4.5rem;
 }
+
+.speciality-services-container {
+    background-color: rgb(249, 249, 249);
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+
+.speciality-services-container div:first-child {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.speciality-services-container div:first-child h2 {
+    font-size: 2.3rem;
+    font-weight: lighter;
+    margin-bottom: 1.5rem;
+}
+
+.speciality-services-container div:first-child p {
+    color: rgb(119, 119, 119);
+    font-family: sans-serif;
+    font-size: 0.85rem;
+    margin-top: 1.5rem;
+}
+
+.speciality-services-container div:last-child {
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.speciality-services-container div:last-child p {
+    margin-top: 0.6rem;
+}
+
+.business-loans-container,
+.credit-rating-advice-container,
+.fast-crowd-funding-container {
+    flex-direction: column;
+    background-color: white;
+    width: 18rem;
+    margin: 0.5rem;
+}
+
+.business-loans-container i,
+.credit-rating-advice-container i,
+.fast-crowd-funding-container i {
+    font-size: 3.2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.6rem;
+}
+
+.business-loans-container h3,
+.credit-rating-advice-container h3,
+.fast-crowd-funding-container h3 {
+    font-weight: lighter;
+}
+
+.business-loans-container p,
+.credit-rating-advice-container p,
+.fast-crowd-funding-container p {
+    margin-bottom: 2.5rem;
+    line-height: 1.5rem;
+    padding: 0 1.5rem;
+}
+
+.business-loans-container span,
+.credit-rating-advice-container span,
+.fast-crowd-funding-container span {
+    background-color: rgb(90, 221, 205);
+    font-family: sans-serif;
+    color: rgb(220, 248, 244);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    height: 1.9rem;
+}
+
+
