@@ -32,6 +32,7 @@ ul {
 
 .ul-header {
     margin-right: 4.5rem;
+    align-items: center;
 }
 
 .ul-header li {
@@ -41,6 +42,17 @@ ul {
     color: rgb(156, 156, 156);
     font-family: sans-serif;
     font-weight: bolder;
+}
+
+.ul-header li:nth-child(6) {
+    width: 6rem;
+    background-color: rgb(90, 221, 205);
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    align-items: center;
+    color: white;
+    border-radius: 1rem;
 }
 
 .jumbo-container {
@@ -64,4 +76,64 @@ ul {
 
 .bottom-header-container img {
     height: 5rem;
+}
+
+.cloud-container {
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+
+.cloud-container div:first-child {
+    width: 55%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8.5rem 0;
+}
+
+.cloud-container div:first-child > * {
+    margin-left: 9rem;
+    margin-right: 3rem;
+    margin-bottom: 1.8rem;
+}
+
+.cloud-container div:first-child h2 {
+    font-size: 2.3rem;
+    font-weight: lighter;
+}
+
+.cloud-container div:first-child p {
+    color: rgb(119, 119, 119);
+    font-family: sans-serif;
+    font-size: 0.85rem;
+}
+
+.cloud-container div:first-child span:last-child {
+    width: 7rem;
+    background-color: rgb(90, 221, 205);
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    align-items: center;
+    color: rgb(232, 251, 248);
+    border-radius: 1rem;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.bar {
+    height: 0.1rem;
+    width: 5rem;
+    background-color: rgb(26, 54, 95);
+}
+
+.cloud-container div:last-child {
+    width: 50%;
+}
+
+.cloud-container div:last-child img {
+    width: 75%;
+    margin-top: 4.5rem;
 }
