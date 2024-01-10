@@ -17,11 +17,7 @@
 
                     <ul>
 
-                        <li>> When is it the rigth time to sell your company?</li>
-
-                        <li>> Personal debt or company debt we explore your options</li>
-
-                        <li>> An interview with a so-called business angel</li>
+                        <FooterMenu v-for="footerElement in recentPost" :linkFooter="footerElement.link"/>
 
                     </ul>
 
@@ -33,11 +29,7 @@
 
                     <ul>
 
-                        <li>> Small business loan services</li>
-
-                        <li>> Credit rating advice services</li>
-
-                        <li>> Crowd funding services</li>
+                        <FooterMenu v-for="footerElement in services" :linkFooter="footerElement.link"/>
 
                     </ul>
 
@@ -82,8 +74,43 @@
     </footer>
 </template>
 <script>
+import FooterMenu from './FooterMenu.vue';
 export default {
-    
+    data() {
+        return {
+            recentPost: [
+                {
+                    id: 1,
+                    link: "> When is it the rigth time to sell your company?"
+                },
+                {
+                    id: 2,
+                    link: "> Personal debt or company debt we explore your options"
+                },
+                {
+                    id: 3,
+                    link: "> An interview with a so-called business angel"
+                },
+            ],
+            services: [
+                {
+                    id: 1,
+                    link: "> Small business loan services"
+                },
+                {
+                    id: 2,
+                    link: "> Credit rating advice services"
+                },
+                {
+                    id: 3,
+                    link: "> Crowd funding services"
+                },
+            ],
+        }
+    },
+    components: {
+        FooterMenu
+    }
 }
 </script>
 <style lang="scss" scoped>
