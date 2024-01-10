@@ -332,3 +332,40 @@ ul {
     font-size: 0.65rem;
 }
 
+.ready-to-talk-container {
+    background-image: url(../assets/imgs/ready_to_talk_cta_bg.jpg);
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 30rem;
+    text-align: center;
+}
+
+.ready-to-talk-container h2 {
+    font-size: 3.2rem;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.ready-to-talk-container p {
+    color: rgb(164, 171, 178);
+    font-size: 1.1rem;
+}
+
+.ready-to-talk-container span {
+    width: 7rem;
+    background-color: rgb(90, 221, 205);
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    align-items: center;
+    color: rgb(236, 248, 246);
+    border-radius: 1rem;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-top: 1.5rem;
+}

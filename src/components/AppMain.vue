@@ -207,6 +207,20 @@
         </div>
 
     </section>
+
+    <section class="ready-to-talk">
+
+        <div class="ready-to-talk-container flex">
+
+            <h2>Ready to talk?</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit mod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <span>Let's talk</span>
+
+        </div>
+
+    </section>
 </template>
 <script>
 export default {
