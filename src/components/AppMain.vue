@@ -103,20 +103,47 @@
 
             <div class="flex">
 
-                <div class="flex">
+                <span>Investment Numbers</span>
 
-                    <p>Investment Numbers</p>
+                <h2>Making An Impact In Our Communities</h2>
 
-                    <h2>Making An Impact In Our Communities</h2>
-
-                    <span>Learn More</span>
-
-                </div>
-
+                <span>Learn More</span>
+            
             </div>
 
             <div class="flex">
 
+                <div class="flex">
+
+                    <span>86%</span>
+
+                    <p>Successful Applications</p>
+
+                </div>
+
+                <div class="flex">
+
+                    <span>94%</span>
+
+                    <p>Return On Investment</p>
+
+                </div>
+
+                <div class="flex">
+
+                    <span>92%</span>
+
+                    <p>Applied Solutions</p>
+
+                </div>
+
+                <div class="flex">
+
+                    <span>100%</span>
+
+                    <p>Completely Secure</p>
+
+                </div>
 
             </div>
 
