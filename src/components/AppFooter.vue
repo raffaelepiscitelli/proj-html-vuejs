@@ -53,7 +53,27 @@
 
             </div>
 
-            <div class="bottom-footer">
+            <div class="bottom-footer flex">
+
+                <div>
+
+                    <span>&#169; Copyright 2012 - 2020 | Avada Theme by Theme Fusion | All Rights Reserved | Powered by WordPres</span>
+
+                </div>
+
+                <div>
+
+                    <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+
+                    <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+
+                    <i class="fa-solid fa-angle-up" style="color: #d1d1d2;"></i>
+
+                </div>
 
             </div>
 

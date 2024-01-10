@@ -388,7 +388,7 @@ ul {
 
 .up-footer div img {
     height: 7.5rem;
-    margin-left: 1.5rem;
+    margin-left: 4rem;
 }
 
 .up-footer div span {
@@ -412,3 +412,35 @@ ul {
     font-size: 1.5rem;
 }
 
+.bottom-footer {
+    background-color: rgb(18, 19, 22);
+    color: rgb(101, 101, 102);
+    font-family: sans-serif;
+    font-size: 0.65rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8rem 3rem;
+}
+
+.bottom-footer i {
+    margin: 0 0.2rem;
+    background-color: rgb(90, 220, 205);
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 0.7rem;
+}
+
+.bottom-footer i:last-child {
+    background-color: rgb(48, 48, 48);
+    height: 1.5rem;
+    width: 2.2rem;
+    border-radius: 20% 20% 0 0;
+    position: absolute;
+    top: 247rem;
+    right: 3.3rem;
+    line-height: 1.5rem;
+}
